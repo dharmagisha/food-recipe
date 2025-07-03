@@ -45,23 +45,23 @@ const Home = () => {
     //   video: images.brk,
     //   description: `Whisk eggs with salt, turmeric, and pepper. Add chopped onions, chilies, tomatoes, coriander, and ginger. Cook on pan, flip, and serve hot with toast or as filling.`
     // },
-
-    {
-      title: 'Rava Dosa',
-      video: images.garlic,
-      description: `To make Rava Dosa, mix 1 cup rava (semolina), ¼ cup rice flour, 2 tbsp maida, chopped onions, green chilies, cumin seeds, and salt. Add 2½ to 3 cups of water to make a thin, runny batter and let it rest for 15 minutes. Heat a tawa and pour the batter from a height, starting from the edges inward — no need to spread. Drizzle oil around the edges and cook until crisp and golden. Serve hot with coconut chutney or sambar.`
-    },
-    {
-      title: 'Rava Dosa',
-      video: images.Bread,
-      description: `To make Rava Dosa, mix 1 cup rava (semolina), ¼ cup rice flour, 2 tbsp maida, chopped onions, green chilies, cumin seeds, and salt. Add 2½ to 3 cups of water to make a thin, runny batter and let it rest for 15 minutes. Heat a tawa and pour the batter from a height, starting from the edges inward — no need to spread. Drizzle oil around the edges and cook until crisp and golden. Serve hot with coconut chutney or sambar.`
-    },
-    {
-      title: 'Rava Dosa',
+        {
+      title: 'Kesari',
       video: images.kerasi,
-      description: `To make Rava Dosa, mix 1 cup rava (semolina), ¼ cup rice flour, 2 tbsp maida, chopped onions, green chilies, cumin seeds, and salt. Add 2½ to 3 cups of water to make a thin, runny batter and let it rest for 15 minutes. Heat a tawa and pour the batter from a height, starting from the edges inward — no need to spread. Drizzle oil around the edges and cook until crisp and golden. Serve hot with coconut chutney or sambar.`
+      description: `To make Kesari, heat 2 tablespoons of ghee in a pan and roast ½ cup of rava (semolina) on low flame until aromatic. In another pan, boil 1½ cups of water with a pinch of orange food color or saffron. Slowly pour the hot water into the roasted rava, stirring continuously to avoid lumps. Cook until the water is absorbed. Then add ½ cup of sugar and stir well. Cook until the mixture thickens and ghee starts to leave the sides. Add cardamom powder, roasted cashews, and raisins. Serve warm for a quick and tasty dessert!`
     },
 
+    {
+      title: 'Garlic Bread',
+      video: images.garlic,
+      description: `To make garlic bread, mix softened butter with minced garlic, chopped coriander or parsley, a pinch of salt, and optional chili flakes. Spread this on sliced bread or baguette. Toast in a preheated oven at 180°C for 8–10 minutes, or on a pan for 3–5 minutes on low heat. For a cheesy twist, add grated cheese before toasting. Serve hot with pasta, soup, or enjoy as a snack!`
+    },
+    {
+      title: 'Bread Desert',
+      video: images.Bread,
+      description: `To make a delicious bread dessert, cut 4–5 slices of bread into small cubes and lightly toast or fry them in ghee until golden. In a separate pan, heat 1 cup of milk, add 3–4 tablespoons of sugar, a pinch of cardamom powder, and let it simmer until slightly thick. Pour the warm milk over the toasted bread pieces and let them soak. Garnish with chopped nuts like almonds, cashews, and a few raisins. Serve warm or chilled — it tastes like a quick version of Shahi Tukda or bread pudding!`
+    },
+ 
 
   ];
 
