@@ -15,36 +15,54 @@ const Home = () => {
       video: images.brk,
       description: `To make Rava Dosa, mix 1 cup rava (semolina), ¼ cup rice flour, 2 tbsp maida, chopped onions, green chilies, cumin seeds, and salt. Add 2½ to 3 cups of water to make a thin, runny batter and let it rest for 15 minutes. Heat a tawa and pour the batter from a height, starting from the edges inward — no need to spread. Drizzle oil around the edges and cook until crisp and golden. Serve hot with coconut chutney or sambar.`
     },
+    // {
+    //   title: 'Garlic Rasam',
+    //   video: images.swt,
+    //   description: `Crush 6–8 garlic cloves and boil them in 2 cups of water with 1 chopped tomato, 1 tsp tamarind paste, salt, turmeric, and a little rasam powder. Simmer for 10–15 minutes. In a small pan, heat ghee or oil, add mustard seeds, curry leaves, and dried red chilies, then pour this tempering into the rasam. Garnish with coriander leaves and serve hot.`
+    // },
+    // {
+    //   title: 'Ghee Rice',
+    //   video: images.brk,
+    //   description: `Heat 2 tbsp ghee in a pan, then add whole spices like cinnamon, cloves, bay leaf, and cardamom. Add 1 sliced onion and sauté until golden. Stir in 1 cup basmati rice and sauté for a minute. Add 2 cups of water and salt, cover, and cook on low heat until done. Garnish with fried cashews.`
+    // },
+    // {
+    //   title: 'Onion Tomato Chutney',
+    //   video: images.swt,
+    //   description: `Sauté 1 chopped onion until soft, add 2 chopped tomatoes, 2–3 dried red chilies, and cook until mushy. Add tamarind and salt. Cool slightly, then blend to chutney. Temper with mustard seeds, curry leaves, and hing.`
+    // },
+    // {
+    //   title: 'Aloo Paratha',
+    //   video: images.brk,
+    //   description: `Mash boiled potatoes, mix with onions, green chilies, coriander, salt, cumin, and garam masala. Make dough with wheat flour. Stuff, roll, and cook on tawa with ghee. Serve with curd, pickle, or butter.`
+    // },
+    // {
+    //   title: 'Lemon Rice',
+    //   video: images.swt,
+    //   description: `Heat oil, add mustard seeds, urad dal, chana dal, dried red chilies, green chilies, curry leaves, and turmeric. Add cooked rice, salt, mix, then add lemon juice. Garnish with coriander or peanuts.`
+    // },
+    // {
+    //   title: 'Masala Omelette',
+    //   video: images.brk,
+    //   description: `Whisk eggs with salt, turmeric, and pepper. Add chopped onions, chilies, tomatoes, coriander, and ginger. Cook on pan, flip, and serve hot with toast or as filling.`
+    // },
+
     {
-      title: 'Garlic Rasam',
-      video: images.swt,
-      description: `Crush 6–8 garlic cloves and boil them in 2 cups of water with 1 chopped tomato, 1 tsp tamarind paste, salt, turmeric, and a little rasam powder. Simmer for 10–15 minutes. In a small pan, heat ghee or oil, add mustard seeds, curry leaves, and dried red chilies, then pour this tempering into the rasam. Garnish with coriander leaves and serve hot.`
+      title: 'Rava Dosa',
+      video: images.garlic,
+      description: `To make Rava Dosa, mix 1 cup rava (semolina), ¼ cup rice flour, 2 tbsp maida, chopped onions, green chilies, cumin seeds, and salt. Add 2½ to 3 cups of water to make a thin, runny batter and let it rest for 15 minutes. Heat a tawa and pour the batter from a height, starting from the edges inward — no need to spread. Drizzle oil around the edges and cook until crisp and golden. Serve hot with coconut chutney or sambar.`
     },
     {
-      title: 'Ghee Rice',
-      video: images.brk,
-      description: `Heat 2 tbsp ghee in a pan, then add whole spices like cinnamon, cloves, bay leaf, and cardamom. Add 1 sliced onion and sauté until golden. Stir in 1 cup basmati rice and sauté for a minute. Add 2 cups of water and salt, cover, and cook on low heat until done. Garnish with fried cashews.`
+      title: 'Rava Dosa',
+      video: images.Bread,
+      description: `To make Rava Dosa, mix 1 cup rava (semolina), ¼ cup rice flour, 2 tbsp maida, chopped onions, green chilies, cumin seeds, and salt. Add 2½ to 3 cups of water to make a thin, runny batter and let it rest for 15 minutes. Heat a tawa and pour the batter from a height, starting from the edges inward — no need to spread. Drizzle oil around the edges and cook until crisp and golden. Serve hot with coconut chutney or sambar.`
     },
     {
-      title: 'Onion Tomato Chutney',
-      video: images.swt,
-      description: `Sauté 1 chopped onion until soft, add 2 chopped tomatoes, 2–3 dried red chilies, and cook until mushy. Add tamarind and salt. Cool slightly, then blend to chutney. Temper with mustard seeds, curry leaves, and hing.`
+      title: 'Rava Dosa',
+      video: images.kerasi,
+      description: `To make Rava Dosa, mix 1 cup rava (semolina), ¼ cup rice flour, 2 tbsp maida, chopped onions, green chilies, cumin seeds, and salt. Add 2½ to 3 cups of water to make a thin, runny batter and let it rest for 15 minutes. Heat a tawa and pour the batter from a height, starting from the edges inward — no need to spread. Drizzle oil around the edges and cook until crisp and golden. Serve hot with coconut chutney or sambar.`
     },
-    {
-      title: 'Aloo Paratha',
-      video: images.brk,
-      description: `Mash boiled potatoes, mix with onions, green chilies, coriander, salt, cumin, and garam masala. Make dough with wheat flour. Stuff, roll, and cook on tawa with ghee. Serve with curd, pickle, or butter.`
-    },
-    {
-      title: 'Lemon Rice',
-      video: images.swt,
-      description: `Heat oil, add mustard seeds, urad dal, chana dal, dried red chilies, green chilies, curry leaves, and turmeric. Add cooked rice, salt, mix, then add lemon juice. Garnish with coriander or peanuts.`
-    },
-    {
-      title: 'Masala Omelette',
-      video: images.brk,
-      description: `Whisk eggs with salt, turmeric, and pepper. Add chopped onions, chilies, tomatoes, coriander, and ginger. Cook on pan, flip, and serve hot with toast or as filling.`
-    },
+
+
   ];
 
   return (
@@ -53,21 +71,19 @@ const Home = () => {
         <Carousel.Item>
           <img src={images.cru1} width="100%" style={{ height: '100vh', maxHeight: '700px', objectFit: 'cover' }} alt='' />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>Spice up your meals with easy, step-by-step Indian recipes.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img src={images.cru3} width="100%" style={{ height: '100vh', maxHeight: '700px', objectFit: 'cover' }} alt='' />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Explore rich flavors, regional dishes, and timeless recipes.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img src={images.cru4} width="100%" style={{ height: '100vh', maxHeight: '700px', objectFit: 'cover' }} alt='' />
           <Carousel.Caption>
-            <h3>Variety of foods</h3>
+            <p>Uncover the soul of Indian cuisine, one recipe at a time.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -112,7 +128,7 @@ const Home = () => {
             <div style={{ flex: '1 1 300px' }}>
               <h3 style={{ color: '#333', marginBottom: '10px' }}>{dish.title}</h3>
               <p style={{ lineHeight: '1.6', color: '#444', fontSize: '15px' }}>{dish.description}</p>
-              <button style={{
+              {/* <button style={{
                 marginTop: '10px',
                 background: '#ffaa33',
                 border: 'none',
@@ -120,7 +136,7 @@ const Home = () => {
                 borderRadius: '5px',
                 cursor: 'pointer',
                 color: '#fff'
-              }}>Recipe</button>
+              }}>Recipe</button> */}
             </div>
           </div>
         ))}

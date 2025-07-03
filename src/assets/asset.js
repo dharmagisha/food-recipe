@@ -25,16 +25,9 @@ import insta from './insta.png'
 import wapp from './app.png'
 import swt from './swwt.mp4'
 import brk from './brek.mp4'
-
-
-
-
-
-
-
-
-
-
+import kerasi from './kesarii.mp4'
+import garlic from './garlicc.mp4'
+import Bread from './breadd.mp4'
 
 
 
@@ -65,7 +58,10 @@ export const images = {
     insta,
     wapp,
     swt,
-    brk
+    brk,
+    kerasi,
+    Bread,
+    garlic
 
 
 }
