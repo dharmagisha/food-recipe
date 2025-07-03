@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff7ec;
+}
+
+/* Carousel */
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Section Title */
+.hme {
+  text-align: center;
+  margin: 50px 0;
+  font-weight: bold;
+  color: #aa5500;
+  font-size: 2rem;
+}
+
+/* Dish Container */
+.dish-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto 60px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+/* Dish Video */
+.dish-container video {
+  width: 50%;
+  max-width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+/* Dish Text */
+.dish-container h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.dish-container p {
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Recipe Button */
+.dish-container button {
+  margin-top: 10px;
+  background: #ffaa33;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dish-container button:hover {
+  background: #ff8800;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .dish-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+   
+  .dish-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .hme {
+    font-size: 1.5rem;
+    margin: 30px 0;
+  }
+}

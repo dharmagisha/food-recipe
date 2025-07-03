@@ -1,0 +1,79 @@
+/* .main {
+    
+    background-image: url('./assets/front.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: -15px;
+  padding: -10px;
+  overflow: hidden;
+  
+   min-height: 100vh;
+} */
+.main {
+    background-color: rgba(229, 162, 85, 0.664);
+}
+.main {
+  background-color: #ffe3c0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Desktop nav styles */
+.nav-links {
+  display: flex;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* Hamburger */
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+}
+
+/* Hide nav on mobile unless open */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #ffe3c0;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Ensure right-alignment on large screens */
+@media (min-width: 769px) {
+  .nav-links {
+    margin-left: auto;
+  }
+}
+
